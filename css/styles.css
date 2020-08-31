@@ -1,0 +1,107 @@
+body{
+    background-color: #FFD700;
+
+}
+
+#header-nav{
+    background-color: #800000;
+    border-radius: 0;
+    border:0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #fff;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #000000;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+ 
+
+#logo-img{
+    background: url('../assets/burger.png') no-repeat;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+
+}
+   
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  .menu{
+      text-align: center;
+      color:black;
+  }
+
+#container1, #container2, #container3{
+    width: 1000px;
+    height: 250px;
+    border: 1px solid #000000;
+    background-color: #ECEAE9;
+    margin: 20px 0 0 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    align-content: center
+    ;
+}
+
+@media (max-width: 2000px) and (min-width: 915px){
+    .container1 {
+        width: 60%;
+        clear: left;
+    }
+    }
+    
+    
+    @media (max-width: 2000px) and (min-width: 915px){
+    .container2 {
+    
+        width: 60%;
+        clear: left;
+    
+    
+    
+    }
+    }
+    
+    @media (max-width: 2000px) and (min-width: 950px){
+    .container3 {
+        width: 60%;
+        clear: left;
+
+}
+}
